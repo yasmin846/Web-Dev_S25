@@ -1,0 +1,102 @@
+.body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ig_left{
+    float: left;
+    position:relative;
+    margin-left: 250px;
+}
+.ig_right{
+    margin-top: -500px;
+    float: right;
+    margin-right: 100px;
+}
+.login_area{
+    border: 1px solid rgb(214, 214, 214);
+    text-align: center;
+    width: 300px;
+    float:right;
+    margin-right: 200px;
+}
+.logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height:50px;
+}
+.button_login{
+    color: white;
+    background-color: #4cb5f9;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width:90%;
+    height: 32px;
+    font-weight: bold;
+}
+#form_separator{
+    
+    font-size: 18px;
+}
+hr{
+    width: 103px;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid rgb(227, 227, 227);
+}
+#or{
+    color: lightgray;
+
+}
+a{
+    text-decoration: none;
+
+}
+.phone{
+    margin-top: 20px;
+}
+.form_input{
+    font-size: 11px;
+    width: 256px;
+    color: black;
+    background-color: #fafafa;
+    height: 34px;
+    border: 1.5px solid rgb(227, 227, 227);
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+.login_facebook{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.login_facebook_text{
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+}
+#forgot_pass {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #00376b;
+}
+#bottom_text{
+    text-align: center;
+}
+#bottom_login{
+    border: 1px solid rgb(214, 214, 214);
+    width: 300px;
+    float: right;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+#apps_text{
+    margin-top:80px;
+    float: right;
+    
+}
+
+.apps_download {
+    float: right;
+    margin-top: 80px;
+    margin-right: 300px;
+}
