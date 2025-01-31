@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -14,6 +14,7 @@ body{
     margin-left: 250px;
 }
 .ig_right{
+    margin-top: 30px;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -38,15 +39,14 @@ body{
     color: white;
     background-color: #4cb5f9;
     border:0px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 14px;
     margin-bottom: 14px;
-    width:90%;
+    width:100%;
     height: 32px;
     font-weight: bold;
 }
 #form_separator{
-    
     font-size: 18px;
 }
 hr{
@@ -56,7 +56,9 @@ hr{
     border-top: 1px solid rgb(227, 227, 227);
 }
 #or{
-    color: lightgray;
+    color: #737373;
+    font-size: 12px;
+    font-weight: 500;
 
 }
 a{
@@ -68,7 +70,7 @@ a{
 }
 .form_input{
     font-size: 11px;
-    width: 256px;
+    width: 230px;
     color: black;
     background-color: #fafafa;
     height: 34px;
@@ -86,7 +88,7 @@ a{
     font-weight: 600;
 }
 #forgot_pass {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #00376b;
@@ -96,10 +98,11 @@ a{
 }
 #bottom_login{
     margin: 10px 0;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
     border: 1px solid rgb(214, 214, 214);
     width: 280px;
+    font-size: 14px;
 }
 
 .apps {
@@ -114,7 +117,7 @@ a{
 }
 
 .apps_download {
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
