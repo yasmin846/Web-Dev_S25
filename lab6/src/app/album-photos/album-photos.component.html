@@ -1,0 +1,7 @@
+<h2>Album Photos</h2>
+<ul>
+    <div *ngFor="let photo of photos">
+      <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+    </div>
+</ul>
+<button (click)="goBack()" class="back">Return</button>

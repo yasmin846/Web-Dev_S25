@@ -1,0 +1,17 @@
+button{
+    margin-right: 20px;
+    color: white;
+}
+.save{
+    background-color: #66ff66;
+}
+.back{
+    background-color: #66b2ff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}

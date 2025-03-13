@@ -1,0 +1,13 @@
+h1 {
+    font-weight: bold;
+}
+.about {
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+p{
+    font-style: italic;
+}
+  

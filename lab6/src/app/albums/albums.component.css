@@ -1,0 +1,24 @@
+.albums-info{
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: #ff6666;
+    margin-left: 90%;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+}
