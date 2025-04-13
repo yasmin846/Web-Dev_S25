@@ -1,0 +1,13 @@
+<h2>About this company</h2>
+<div class='info' *ngIf="company">
+  <p><strong>Name:</strong> {{ company.name }}</p>
+  <p><strong>Description:</strong> {{ company.description }}</p>
+  <p><strong>City:</strong> {{ company.city }}</p>
+  <p><strong>Address:</strong> {{ company.address }}</p>
+</div>
+<h4>Available vacancies:</h4>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{ vacancy.name }} — {{ vacancy.salary }} ₸
+  </li>
+</ul>

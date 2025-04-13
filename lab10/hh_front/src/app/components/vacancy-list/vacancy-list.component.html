@@ -1,0 +1,6 @@
+<h2>All vacancies</h2>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    <a [routerLink]="['/vacancies', vacancy.id]">{{ vacancy.name }} — {{ vacancy.salary }} ₸ </a>
+  </li>
+</ul>
